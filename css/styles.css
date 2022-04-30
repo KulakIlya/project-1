@@ -1,0 +1,107 @@
+:root{
+    --main-font-family: 'Radio Canada',sans-serif;
+    --main-font-size: 18px;
+    --main-color: #070707;
+    --secondary-color: #828282;
+    
+}
+
+body{
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: 400;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/* header */
+
+header{
+    width: 1200px;
+    height: 95px;
+    margin: 0 252px;
+}
+
+.nav-list{
+    margin: 33px 0;
+}
+
+.nav-list li{
+    float: left;
+    height: 66px;
+    margin-right: 156px;
+}
+
+.current{
+    color: var(--main-color);
+}
+
+header hr{
+    width: 950.6px;
+    margin-right: 210px;
+}
+
+/* intro section */
+
+.intro{
+    display: inline-block;
+    width: 1200px;
+    color: var(--main-color);
+    margin: auto 287px;
+}
+
+.intro h1,.intro p,
+.lang{
+    float: left;
+}
+
+.intro h1{
+    float: left;
+    font-size: 47px;
+    line-height: 1.25;
+}
+
+.intro p{
+    margin: 90px 300px;
+}
+
+.lang{
+    color: var(--secondary-color);
+    padding: 66px 25px;
+    transform: rotate(-90deg);
+} 
+
+.current-lang{
+    color: var(--main-color);
+}
+
+.photo{
+    width: 950.6px;
+    height: 387px;
+}
+
+/* About me section */
+
+.about-me{
+    background-color: #F6F6F6;
+    height: 506px;
+}
+
+.about-me h2, .about-me p{
+    text-align: center;
+}
+
+.about-me h2{
+    font-size: 34px;
+    line-height: 1.23;
+    padding-top: 120px;
+}
