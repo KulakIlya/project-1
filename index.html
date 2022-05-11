@@ -1,51 +1,156 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="#intro" class="current">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-            
-        </nav>
-        <hr>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#intro" class="current">Home</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <hr />
     </header>
-
-    <section id="intro" class="intro">
-        <h1>Denis<br>Novik</h1>
-        <p>UX | UI designer<br>24 years old, Minsk</p>
+    <main>
+      <section id="intro" class="intro">
+        <h1>Denis<br />Novik</h1>
+        <p>UX | UI designer<br />24 years old, Minsk</p>
         <span class="lang"> RU <span class="current-lang">| EN</span></span>
-        <img lang="ru" class="photo" src="./images/BSPP2266.jpg" alt="Фото Дениса Новика">
-    </section>
+        <img
+          lang="ru"
+          class="photo"
+          src="./images/BSPP2266.jpg"
+          alt="Фото Дениса Новика"
+        />
+      </section>
 
-    <section id="about-me"  class="about-me">
+      <section id="about-me" class="about-me">
         <h2>About me</h2>
-        <p>Hi, I'm Denis – UX/UI designer from Minsk. <br> 
-            I'm interested in design and everything connected with it. <br>
-            <br>
-            <br>
-            I'm studying at courses "Web and mobile design <br>
-            interfaces" in IT-Academy. <br>
-            <br>
-            <br>
-            Ready to implement excellent projects <br>
-             with wonderful people.</p>
-    </section>
+        <p>
+          Hi, I'm Denis – UX/UI designer from Minsk. <br />
+          I'm interested in design and everything connected with it. <br />
+          <br />
+          <br />
+          I'm studying at courses "Web and mobile design <br />
+          interfaces" in IT-Academy. <br />
+          <br />
+          <br />
+          Ready to implement excellent projects <br />
+          with wonderful people.
+        </p>
+      </section>
 
-    <section class="skills">
+      <section id="skills" class="skills">
         <h2>Skills</h2>
-    </section>
-</body>
+        <p>I work in such programs as</p>
+        <ul class="skills-list">
+          <li class="item">
+            <img
+              class="item-logo"
+              src="./images/Group.jpg"
+              alt="Adobe Photoshop"
+            />
+            <p>
+              Adobe <br />
+              Photoshop
+            </p>
+            <img class="stars" src="./images/Group5.svg" alt="stars" />
+          </li>
+          <li class="item">
+            <img
+              class="item-logo"
+              src="./images/Group2.jpg"
+              alt="Adobe Illustrator"
+            />
+            <p>
+              Adobe <br />
+              Illustrator
+            </p>
+            <img class="stars" src="./images/Group3.svg" alt="stars" />
+          </li>
+          <li class="item">
+            <img
+              class="item-logo"
+              src="./images/Group(1).jpg"
+              alt="Adobe After Effects"
+            />
+            <p>
+              Adobe <br />
+              After Effects
+            </p>
+            <img class="stars" src="./images/Group5.svg" alt="stars" />
+          </li>
+          <li class="item">
+            <img class="figma-logo" src="./images/Group2(1).jpg" alt="Figma" />
+            <p>Figma</p>
+            <img class="figma-stars" src="./images/Group5.svg" alt="stars" />
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <h2>Portfolio</h2>
+        <ul>
+          <li class="portfolio-item">
+            <img src="./images/Слой8.jpg" alt="Online fashion store" />
+            <p><a href="#">Online fashion store - Homepage</a></p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/reebok_web.jpg" alt="Reebok Store" />
+            <p><a href="#">Reebok Store - Concept</a></p>
+          </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/Braun-Landing-Page.jpg"
+              alt="Braun Landing Page - Concept"
+            />
+            <p><a href="#">Braun Landing Page - Concept</a></p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <h2>Contacts</h2>
+      <p>
+        Want to know more or just chat? <br />
+        You are welcome!
+      </p>
+      <button type="button">Send message</button>
+      <ul class="footer-list">
+        <li>
+          <a href="#"
+            ><img src="./images/Linkedln.jpg" alt="Linkedln logo"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Instagram.jpg" alt="Instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/Behance.jpg" alt="Behance logo" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/Dribble.jpg" alt="Dribble logo" /></a>
+        </li>
+      </ul>
+      <br /><br />
+      <p class="media">
+        Like me on <br />
+        LinkedIn, Instagram, Behance, Dribble
+      </p>
+    </footer>
+  </body>
 </html>
