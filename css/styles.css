@@ -250,6 +250,10 @@ footer button {
   margin: 43px 677px;
 }
 
+footer button:hover {
+  cursor: pointer;
+}
+
 .footer-list {
   width: 446px;
   margin: 86px 566px;

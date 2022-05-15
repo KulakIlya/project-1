@@ -127,7 +127,13 @@
         Want to know more or just chat? <br />
         You are welcome!
       </p>
-      <button type="button">Send message</button>
+      <button id="abc" type="button">Send message</button>
+      <script>
+        let x = document.getElementById("abc");
+        x.onclick = function () {
+          alert("Button pressed");
+        };
+      </script>
       <ul class="footer-list">
         <li>
           <a href="#"
