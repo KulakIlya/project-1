@@ -1,274 +1,274 @@
 :root {
-  --main-font-family: "Radio Canada", sans-serif;
-  --main-font-size: 18px;
+  --main-font-family: "Abhaya Libre SemiBold";
   --main-color: #070707;
   --secondary-color: #828282;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  color: var(--main-color);
   font-family: var(--main-font-family);
-  font-size: var(--main-font-size);
-  font-weight: 400;
+  color: var(--main-color);
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  color: var(--secondary-color);
+.link {
   text-decoration: none;
 }
 
-/* header */
+hr {
+  margin: 0;
+  padding: 0;
 
-.nav-list {
-  width: 1146px;
-  height: 25px;
-  margin: 33px 252px;
+  width: 927px;
 }
 
-.nav-list li {
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* .section {
+  text-align: center;
+} */
+
+.section:nth-child(2n + 1) {
+  background-color: #f6f6f6;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.description {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.17;
-  float: left;
-  margin-right: 156px;
+}
+
+.container {
+  padding-left: 72px;
+  padding-right: 72px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1083px;
+}
+
+/* Header */
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+.nav-list .item {
+  display: block;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.17;
 }
 
 .current {
   color: var(--main-color);
 }
 
-header hr {
-  width: 958.6px;
-  margin-left: 286px;
-  border: 1px solid #828282;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+.nav-list .item:not(:last-child) {
+  margin-right: 156px;
 }
 
-/* intro section */
+/* Intro section */
 
 .intro {
-  width: 988px;
-  margin-left: 286px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.intro h1,
-.intro p,
-.lang {
-  float: left;
+.intro .wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.intro h1 {
+.wrapper {
+  margin-bottom: 30px;
+  align-items: center;
+
+  width: 954px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: block;
+  width: 123px;
+
   font-weight: 600;
   font-size: 47px;
-  line-height: 1.2;
-}
-
-.intro p {
-  margin: 90px 296px;
+  line-height: 1.19;
 }
 
 .lang {
-  color: var(--secondary-color);
+  font-weight: 600;
   transform: rotate(-90deg);
-  margin-top: 66px;
-  margin-left: 38px;
 }
 
-.current-lang {
-  color: var(--main-color);
+.accent {
+  color: var(--secondary-color);
 }
 
-.intro img {
-  width: 958.6px;
-}
-
-/* about me section */
+/* About me section */
 
 .about-me {
-  width: 100%;
-  height: 506px;
-  background-color: #f6f6f6;
-  margin-top: 104px;
-}
-
-.about-me h2,
-.about-me p {
-  text-align: center;
-}
-
-.about-me h2 {
   padding-top: 120px;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 1.17;
+  padding-bottom: 120px;
 }
 
-.about-me p {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.17;
-}
-
-/* skills section */
-
-.skills h2,
-.skills p {
+.about-me .container {
   text-align: center;
 }
 
-.skills h2 {
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 1.18;
+.about-me .description {
+  margin-top: 20px;
 }
 
-.skills p {
-  margin-top: 69px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.16;
+/* Skills section */
+
+.skills {
+  padding-top: 91px;
+  padding-bottom: 91px;
+  text-align: center;
+}
+
+.skills .description {
+  margin-top: 70px;
 }
 
 .skills-list {
-  height: 206px;
-  width: 1083px;
-  margin: 83px auto;
+  margin-top: 83px;
+
+  display: flex;
+  justify-content: center;
 }
 
-.item {
-  float: left;
-  width: 166px;
-  height: 206px;
-  margin: 0 auto;
+.skills-list .item:not(:last-child) {
   margin-right: 90px;
 }
 
-.item p {
-  margin-top: 23px;
+.skill-description {
+  margin-top: 24px;
+
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.21;
-  color: var(--secondary-color);
-}
+  line-height: 1.2;
 
-.item-logo {
-  display: block;
-  width: 89.21px;
-  margin: auto;
-}
-
-.figma-logo {
-  display: block;
-  width: 58.25px;
-  margin: 0 auto;
+  color: #828282;
 }
 
 .stars {
-  height: 26px;
-  margin-top: 18px;
+  display: flex;
+
+  margin-top: 41px;
 }
 
-.figma-stars {
-  margin-top: 33px;
+.stars .item:not(:last-child) {
+  margin-right: 9px;
 }
 
 /* Portfolio section */
 
 .portfolio {
-  background-color: #f6f6f6;
-}
-
-.portfolio ul {
-  padding-bottom: 96px;
-}
-
-.portfolio h2 {
-  padding-top: 112px;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 1.17;
+  padding-top: 99px;
+  padding-bottom: 99px;
   text-align: center;
 }
 
-.portfolio-item img {
-  width: 936.24px;
-  margin: 47px 257px;
+.portfolio-list {
+  margin-top: 47px;
 }
 
-.portfolio-item p {
-  text-align: center;
+.portfolio-list .link {
+  margin-top: 45px;
+
+  display: inline-block;
+
   font-weight: 600;
   font-size: 18px;
-  line-height: 21px;
-  margin-top: 45px;
-}
+  line-height: 1.17;
 
-.portfolio-item a {
   color: var(--main-color);
+
   text-decoration: underline;
 }
 
-/* footer */
-
-footer h2 {
-  padding-top: 114px;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 1.17;
-  text-align: center;
+.portfolio-list .item:not(:last-child) {
+  margin-bottom: 99px;
 }
 
-footer p {
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer .description {
   margin-top: 20px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.16;
-  text-align: center;
 }
 
-footer button {
-  background-color: #000000;
+.btn {
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 29px;
+  padding-right: 29px;
+
+  display: block;
+  width: 180px;
+  border-radius: 180px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.17;
+
   color: #ffffff;
-  width: 180.5px;
-  height: 42px;
-  border-radius: 21px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.16;
-  margin: 43px 677px;
+  background-color: var(--main-color);
+  text-decoration: none;
 }
 
-footer button:hover {
-  cursor: pointer;
+.contact-list {
+  margin-top: 86px;
+
+  display: flex;
+  justify-content: center;
 }
 
-.footer-list {
-  width: 446px;
-  margin: 86px 566px;
-}
-
-.footer-list li {
+.contact-list .item:not(:last-child) {
   margin-right: 61px;
-  float: left;
 }
 
-.media {
-  color: var(--secondary-color);
-  text-align: center;
+.contact-list + p {
   margin-top: 45px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
+
+  color: var(--secondary-color);
 }
