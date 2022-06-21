@@ -318,7 +318,6 @@ nav .menu {
   }
 
   .container {
-    margin: 0;
     padding-left: 26px;
     padding-right: 26px;
     width: 360px;
@@ -366,7 +365,6 @@ nav .menu {
 
   .about-me .description {
     display: inline-block;
-    text-align: center;
     max-width: 266px;
   }
 
