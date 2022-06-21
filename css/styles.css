@@ -4,6 +4,11 @@
   --secondary-color: #828282;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--main-font-family);
   color: var(--main-color);
@@ -32,8 +37,8 @@ p {
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 41px;
 }
 
 .btn {
@@ -47,6 +52,10 @@ p {
   color: #ffffff;
   background-color: var(--main-color);
   text-decoration: none;
+}
+
+.section {
+  min-width: 100%;
 }
 
 .section:nth-child(2n + 1) {
@@ -292,8 +301,12 @@ nav .menu {
   color: var(--secondary-color);
 }
 
-@media only screen and (max-width: 376px) {
+@media all and (max-width: 376px) {
   /* Mobile header */
+
+  .section {
+    width: 376px;
+  }
 
   .container {
     padding-left: 26px;
@@ -365,5 +378,9 @@ nav .menu {
     padding-right: 97px;
     padding-left: 97px;
     width: 316px;
+  }
+
+  .contact-list .item:not(:last-child) {
+    margin-right: 51px;
   }
 }
