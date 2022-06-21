@@ -301,6 +301,10 @@ nav .menu {
     width: 360px;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   nav .menu {
     display: block;
   }
@@ -333,6 +337,10 @@ nav .menu {
 
   .intro .lang {
     display: none;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   /* Mobile About me */
