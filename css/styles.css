@@ -224,6 +224,15 @@ nav .menu {
   margin-right: 9px;
 }
 
+.skills-list .item:last-child .stars {
+  margin-top: 57px;
+}
+
+.star {
+  width: 26px;
+  height: 26px;
+}
+
 /* Portfolio section */
 
 .portfolio {
@@ -309,6 +318,7 @@ nav .menu {
   }
 
   .container {
+    margin: 0;
     padding-left: 26px;
     padding-right: 26px;
     width: 360px;
@@ -378,6 +388,10 @@ nav .menu {
     padding-right: 97px;
     padding-left: 97px;
     width: 316px;
+  }
+
+  .contact-list {
+    justify-content: start;
   }
 
   .contact-list .item:not(:last-child) {
