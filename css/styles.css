@@ -338,6 +338,7 @@ nav .menu {
   /* Mobile About me */
 
   .about-me .description {
+    display: inline-block;
     text-align: center;
     max-width: 266px;
   }
