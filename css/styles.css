@@ -135,9 +135,6 @@ nav .menu {
 .intro .wrapper {
   display: flex;
   justify-content: space-between;
-}
-
-.wrapper {
   margin-bottom: 30px;
   align-items: center;
 
@@ -163,6 +160,10 @@ nav .menu {
 
 .accent {
   color: var(--secondary-color);
+}
+
+.intro img[width="316"] {
+  display: none;
 }
 
 /* About me section */
@@ -363,6 +364,14 @@ nav .menu {
 
   .intro .lang {
     display: none;
+  }
+
+  .intro img[width="927"] {
+    display: none;
+  }
+
+  .intro img[width="316"] {
+    display: block;
   }
 
   /* Mobile About me */
