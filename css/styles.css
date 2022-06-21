@@ -4,6 +4,10 @@
   --secondary-color: #828282;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--main-font-family);
   color: var(--main-color);
